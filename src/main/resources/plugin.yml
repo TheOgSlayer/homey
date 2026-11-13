@@ -1,0 +1,17 @@
+name: Homes
+main: dev.homes.HomesPlugin
+version: '${project.version}'
+api-version: '1.21.9'
+description: Dialog-based homes menu
+commands:
+  homes:
+    description: Open the homes menu
+    usage: /homes
+    permission: homes.use
+permissions:
+  homes.use:
+    description: Use /homes
+    default: true
+  homes.admin:
+    description: Reload the plugin (/homes reload)
+    default: op

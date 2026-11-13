@@ -1,0 +1,23 @@
+# Number of home slots every player gets.
+# Give more with permissions homes.limit.<number> (e.g. homes.limit.6).
+max-homes: 3
+
+# true  = the HOMES menu is shown again after a home is set (so you see it appear)
+# false = the menu closes after a home is set
+keep-gui-open-after-set: true
+
+# Sizes are in GUI pixels. Make them smaller if the menus do not fit your window.
+layout:
+  home-columns: 3
+  home-button-width: 100
+  action-button-width: 120
+  icon-columns: 4
+  icon-button-width: 140
+  search-box-width: 220
+
+# Fix an icon that shows up wrong (purple/black square). Format: <atlas>:<sprite path>
+#   blocks:block/<texture>   -> a block texture
+#   items:item/<texture>     -> an item texture
+# Example:
+#   acacia_stairs: "blocks:block/acacia_planks"
+icon-overrides: {}
